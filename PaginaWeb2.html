@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Abarrotes</title>
+  <link rel="stylesheet" href="PaginaWeb2.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda de Abarrotes "El Buen Sabor"</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nuestros Productos</h2>
+      <ul id="lista-productos">
+        <li data-precio="15"><img src="arroz.jpg" alt="Arroz"> Arroz <button class="btn-agregar">Agregar al Carrito</button></li>
+        <li data-precio="33"><img src="frijoles.jpg" alt="Frijoles"> Frijoles <button class="btn-agregar">Agregar al Carrito</button></li>
+        <li data-precio="24"><img src="aceite.jpg" alt="Aceite"> Aceite de cocina<button class="btn-agregar">Agregar al Carrito</button></li>
+        <li data-precio="30"><img src="leche.jpg" alt="Leche"> Leche<button class="btn-agregar">Agregar al Carrito</button></li>
+        <li data-precio="5"><img src="frutas-verduras.jpg" alt="Frutas y Verduras"> Frutas y Verduras<button class="btn-agregar">Agregar al Carrito</button></li>
+      </ul>
+    </section>
+    <section id="Carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p>Total: <span id="total">0</span> MXN</p>
+      <p>Total a Pagar (con impuestos): <span id="total-pagar">0 MXN</span></p>
+      <button id="vaciar-carrito">Vaciar Carrito</button>
+      <button id="pagar">Pagar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tienda de Abarrotes "El Buen Sabor"</p>
+  </footer>
+  <script src="PaginaWeb2.js"></script>
+</body>
+</html>
